@@ -6,7 +6,9 @@
         "description": "Join our team for the upcoming campus hackathon. We need a frontend developer and a data scientist.",
         "tags": ["hackathon", "teamwork", "frontend", "data science"],
         "likes": 15,
-        "withinUni": true
+        "withinUni": true,
+        "username": "user1",
+        "dateCreated": "2024-02-01T10:00:00.000Z"
       },
       {
         "id": 2,
@@ -14,7 +16,9 @@
         "description": "We have 2 rooms available in a 4-bedroom apartment near campus. Looking for quiet and clean students.",
         "tags": ["flatmates", "housing"],
         "likes": 8,
-        "withinUni": true
+        "withinUni": true,
+        "username": "user2",
+        "dateCreated": "2024-02-02T15:30:00.000Z"
       },
       {
         "id": 3,
@@ -22,7 +26,9 @@
         "description": "Seeking an undergraduate research partner in a project on gene sequencing. Preferably someone with a bioinformatics background.",
         "tags": ["UROP", "research", "computational biology", "bioinformatics"],
         "likes": 21,
-        "withinUni": true
+        "withinUni": true,
+        "username": "user3",
+        "dateCreated": "2024-02-03T09:45:00.000Z"
       },
       {
         "id": 4,
@@ -30,14 +36,74 @@
         "description": "Starting a study group for the upcoming Linear Algebra finals. Planning to meet in the library twice a week.",
         "tags": ["study group", "Linear Algebra", "finals"],
         "likes": 5,
-        "withinUni": true
+        "withinUni": true,
+        "username": "user4",
+        "dateCreated": "2024-02-04T11:20:00.000Z"
+      },
+      {
+        "id": 5,
+        "title": "Exploring Quantum Computing Basics",
+        "description": "Anyone interested in forming a discussion group around quantum computing? Beginners welcome!",
+        "tags": ["quantum computing", "discussion", "beginners"],
+        "likes": 12,
+        "withinUni": true,
+        "username": "user5",
+        "dateCreated": "2024-02-06T14:30:00.000Z"
+      },
+      {
+        "id": 6,
+        "title": "Sustainable Campus Initiative Meetup",
+        "description": "Let's brainstorm ways to make our campus more sustainable. Open to all students passionate about the environment.",
+        "tags": ["sustainability", "environment", "meetup"],
+        "likes": 9,
+        "withinUni": true,
+        "username": "user6",
+        "dateCreated": "2024-02-08T16:45:00.000Z"
       }
     ],
     "comments": [
-      { "id": 1, "body": "I'm interested in the hackathon team! I have experience in frontend development.", "postId": 1 },
-      { "id": 2, "body": "Is one of the rooms still available? I'd like more details.", "postId": 2 },
-      { "id": 3, "body": "I'm a bioinformatics major and would love to discuss the UROP opportunity.", "postId": 3 },
-      { "id": 4, "body": "Great idea! I'm struggling with Linear Algebra and would benefit from a study group.", "postId": 4 }
+      {
+        "id": 1,
+        "body": "I'm interested in the hackathon team! I have experience in frontend development.",
+        "postId": 1,
+        "username": "commenter1",
+        "dateCreated": "2024-02-05T08:15:00.000Z"
+      },
+      {
+        "id": 2,
+        "body": "Is one of the rooms still available? I'd like more details.",
+        "postId": 2,
+        "username": "commenter2",
+        "dateCreated": "2024-02-06T10:25:00.000Z"
+      },
+      {
+        "id": 3,
+        "body": "I'm a bioinformatics major and would love to discuss the UROP opportunity.",
+        "postId": 3,
+        "username": "commenter3",
+        "dateCreated": "2024-02-07T14:05:00.000Z"
+      },
+      {
+        "id": 4,
+        "body": "Great idea! I'm struggling with Linear Algebra and would benefit from a study group.",
+        "postId": 4,
+        "username": "commenter4",
+        "dateCreated": "2024-02-08T16:00:00.000Z"
+      },
+      {
+        "id": 5,
+        "body": "Quantum computing is fascinating! I'm a complete beginner but would love to learn more.",
+        "postId": 5,
+        "username": "commenter5",
+        "dateCreated": "2024-02-09T12:30:00.000Z"
+      },
+      {
+        "id": 6,
+        "body": "I've been researching campus sustainability projects. Would be keen to share and learn from others.",
+        "postId": 6,
+        "username": "commenter6",
+        "dateCreated": "2024-02-10T17:20:00.000Z"
+      }
     ],
     "profile": {
       "name": "typicode"
