@@ -1,14 +1,46 @@
 {
     "posts": [
-      { "id": 1, "title": "Post 1" },
-      { "id": 2, "title": "Post 2" },
-      { "id": 3, "title": "Post 3" }
+      {
+        "id": 1,
+        "title": "Looking for Team Members for Hackathon",
+        "description": "Join our team for the upcoming campus hackathon. We need a frontend developer and a data scientist.",
+        "tags": ["hackathon", "teamwork", "frontend", "data science"],
+        "likes": 15,
+        "withinUni": true
+      },
+      {
+        "id": 2,
+        "title": "Flatmates Wanted: 2 Rooms Available",
+        "description": "We have 2 rooms available in a 4-bedroom apartment near campus. Looking for quiet and clean students.",
+        "tags": ["flatmates", "housing"],
+        "likes": 8,
+        "withinUni": true
+      },
+      {
+        "id": 3,
+        "title": "UROP in Computational Biology",
+        "description": "Seeking an undergraduate research partner in a project on gene sequencing. Preferably someone with a bioinformatics background.",
+        "tags": ["UROP", "research", "computational biology", "bioinformatics"],
+        "likes": 21,
+        "withinUni": true
+      },
+      {
+        "id": 4,
+        "title": "Group Study for Linear Algebra Finals",
+        "description": "Starting a study group for the upcoming Linear Algebra finals. Planning to meet in the library twice a week.",
+        "tags": ["study group", "Linear Algebra", "finals"],
+        "likes": 5,
+        "withinUni": true
+      }
     ],
     "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
+      { "id": 1, "body": "I'm interested in the hackathon team! I have experience in frontend development.", "postId": 1 },
+      { "id": 2, "body": "Is one of the rooms still available? I'd like more details.", "postId": 2 },
+      { "id": 3, "body": "I'm a bioinformatics major and would love to discuss the UROP opportunity.", "postId": 3 },
+      { "id": 4, "body": "Great idea! I'm struggling with Linear Algebra and would benefit from a study group.", "postId": 4 }
     ],
     "profile": {
       "name": "typicode"
     }
   }
+  
